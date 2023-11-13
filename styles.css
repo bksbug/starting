@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 1rem;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.container, .colours, .fonts, .text{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container {
+    flex-direction: column;
+}
+
+.colours, .fonts, .text {
+    border: 2px solid black;
+    margin: 0 auto;
+    width: 70%
+}
+
+/* Colours Section */
+
+.panel {
+    height: 200px;
+    width: 20%;
+    color: #ffefd5;
+    border: 1px solid;
+    font-size: 1.5rem;
+    text-align: justify;
+}
+
+.colour-one {
+    background-color: #C65B7C;
+}
+
+.colour-two {
+    background-color: #729EA1;
+}
+
+.colour-four {
+    background-color: #FCD3DE;
+    color: #708090;
+}
+
+.colour-three {
+    background-color: #5B3758;
+}
+
+
+/* Fonts Section */
+
+.fonts {
+    gap: 1rem;
+}
+
+.fonts h3 {
+    text-decoration: underline;
+}
+.fonts > div{
+    height: fit-content;
+    width: fit-content;
+}
+
+.font-one {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.font-two {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.font-one {
+    font-family: 'Courier New', Courier, monospace;
